@@ -25,15 +25,15 @@ jobs:
       - name: Append to reading list
         env:
           RL_INPUT_JSON: ${{ toJSON(github.event.client_payload) }}
-        run: go run github.com/codemicro/readingList add
+        run: go run github.com/AdditionalMetal/readingList add
 
       - name: Commit changes
         run: |
-          git config user.email "readinglistauto@tdpain.net"
+          git config user.email '67547350+AdditionalMetal@users.noreply.github.com'
           git config user.name "Automatic update"
           git add readingList.csv
           git commit -m "Automated reading list update on $(date)"
-          git push -u origin master
+          git push -u origin main
 
   build-site:
     needs: append-to-reading-list

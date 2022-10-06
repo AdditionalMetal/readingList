@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/codemicro/readingList/transport"
+	"github.com/AdditionalMetal/readingList/transport"
 	"github.com/jszwec/csvutil"
 )
 

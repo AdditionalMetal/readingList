@@ -182,16 +182,16 @@ func GenerateSite() error {
 	numArticles := len(entries)
 	groupedEntries := groupEntriesByMonth(entries)
 
-	const pageTitle = "akp's reading list"
+	const pageTitle = "Additional Metal's To Read List"
 
 	head := Div(
 		H1(g.Text(pageTitle)),
 		P(g.Raw(
 			fmt.Sprintf(
-				"A mostly complete list of articles I've read on the internet.<br>The articles on this list do not necessarily represent my views or opinions and should not be construed as doing so.<br><br>There are currently %d entries in the list<br>Last modified %s<br>Repo: %s",
-				numArticles,
+				"Articles that I need to read...<br>There are currently %d entries in the list<br>Last modified %s<br>Repo: %s",
+				numArticles,			
 				time.Now().Format(dateFormat),
-				"<a href=\"https://github.com/codemicro/readingList\" rel=\"noopener\"><code>codemicro/readingList</code></a>",
+				"<a href=\"https://github.com/AdditionalMetal/readingList\" rel=\"noopener\"><code>AdditionalMetal/readingList</code></a>",
 			),
 		)),
 	)

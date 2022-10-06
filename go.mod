@@ -1,4 +1,4 @@
-module github.com/codemicro/readingList
+module github.com/AdditionalMetal/readingList
 
 go 1.18
 

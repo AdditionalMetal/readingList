@@ -1,5 +1,7 @@
-# readingList
+# Reading List
 
-A list of articles I've read. View it here: https://pages.tdpain.net/readingList. Automatically updated by a button I press on another service somewhere else.
+Forked from [codemicro/readingList](https://github.com/codemicro/readingList).
+[Codemicro's Blog Entry](https://www.tdpain.net/blog/a-year-of-reading)
 
-You might find my blog post about this interesting: https://www.tdpain.net/blog/a-year-of-reading
+Following directions from [Zanshin.net](https://zanshin.net/2022/09/11/automating-a-reading-list/).
+
